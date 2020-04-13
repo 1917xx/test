@@ -1,0 +1,107 @@
+﻿request方法：option：请求询问是否能够调通接口，之后再post请求
+
+数据库字段约束问题；
+测试环境与线上环境不一致：数据库版本问题？jdk，Tomcat，jar包不一致问题？
+脏数据问题：服务端报500，查看日志，报空指针错误，数据库表中数据人为删除导致的
+后端接口中数据错误：接口吐数据错误/数据库中数据错误/缓存中的数据错误
+bug是否有重复，可进行批量修改
+浏览器兼容问题
+合并代码常见的问题
+开发者工具中console中报错，前端代码错误
+host就是你的服务器的IP地址，port就是你的tomcat的远程debug的端口号
+考虑应用场景
+APP项目中弱网测试即网络突然断开，网络信号差等异常情况
+Nginx是一款web反向代理服务器，高连接并发下是Apache服务器的一个替代品
+正向代理 是一个位于客户端和原始服务器(origin server)之间的服务器，
+	为了从原始服务器取得内容，客户端向代理发送一个请求并指定目标(原始服务器)，
+	然后代理向原始服务器转交请求并将获得的内容返回给客户端。
+	客户端必须要进行一些特别的设置才能使用正向代理。
+
+
+
+
+
+
+
+用户层面问题：基础的操作，正确的环境
+web页面：样式CSS问题，交互：js问题，文本：html问题
+中间件：上传的图片读取时展示不到：负载均衡两个请求分配到不同的服务器导致，即会话保持
+后端服务层：
+数据库
+
+
+
+
+状态码：4XX一般是客户端问题：401，是否带了正确的身份验证信息，F12-application-cookie-token
+							 403，是否有权限访问
+							 404，对应的url是否真实存在
+		5XX一般是服务端问题：500，服务器内部错误，配合服务器log进行定位
+							 502，服务器挂了
+							 503，网络过载导致的
+							 504，程序执行时间过长导致的，服务端超时没有返回结果
+sql:declare 声明一个变量名称，eg：declare @id int=2；作用域为该变量所在的批，批结束，变量可使用的范围结束
+GO 语句进行批处理的分开
+fetch用法：		SELECT 
+				employee_id, 
+				salary
+				FROM employees
+				ORDER BY 
+					salary DESC
+				OFFSET 5 ROWS
+				FETCH NEXT 5 ROWS ONLY; 跳过前五名薪水最高的员工，然后取出接下来的五名员工
+QPS:每秒查询量，TPS：吞吐量，并发用户数，响应时间RT，
+&和&&都是逻辑与的运算符，&&还具有短路功能，即第一个表达式为false时不再计算第二个表达式
+
+
+Tomcat 、Nginx、jdbc如何配置
+http协议，restful风格接口，json格式，soap协议，API（application program interface）
+桩，驱动，实际测试接口
+
+
+Linux命令：
+rz:将本地文件上传至服务器，无法上传文件夹，可多个文件上传，注意上传路径为当前文件夹路径
+rz -h 查看选项说明
+sz:将文件下载到本地，不可下载文件夹，需要先打包
+
+
+
+测试分析：需要哪些测试？接口？功能？性能？
+测试用例-----评审
+Axure 
+license：zdfans/key：fZw2VoYzXakllUuLVdTH13QYWnjD6NZrxgubQkaRyxD5+HNMqdr+WZKkaa6IoE5N
+git init 将该目录变为git可管理的目录
+vi aaa.txt 编辑文件；编辑结束后ESC后：wq保存退出/：wq!强制保存
+git config user.name 查看用户名；git config user.email 查看邮箱；
+git config --global user.name'用户名'；git config --global user.email'邮箱'；
+vi开始编辑，先输入i之后再进行输入操作
+shell是一个命令解释器，用来管理文件和运行程序，是一个壳将操作系统与应用软件分离保护系统内核
+shell脚本是一种脚本编辑语言
+
+
+
+测试知识体系课程
+链接：https://pan.baidu.com/s/10wpEo5Vagt5-mg_ZfT0Dyg 
+提取码：uya3
+
+功能测试学习资料
+链接：https://pan.baidu.com/s/13Zdr3uu1o7Ng2dTazuZD_g 
+提取码：n7ar
+
+接口测试学习资料
+链接：https://pan.baidu.com/s/1YpIJBlBDgXRb8WJMHGow4g 
+提取码：lvna
+
+性能测试学习资料
+链接：https://pan.baidu.com/s/1NCLNp8_GPbHu5dVmFz9sXw 
+提取码：ic9d
+
+3G学习资料礼包
+链接：https://pan.baidu.com/s/1s5HrKi_s-Y8AJQWdm7bhOA 
+提取码：gw3h 
+复制这段内容后打开百度网盘手机App，操作更方便哦 
+
+
+
+
+
+

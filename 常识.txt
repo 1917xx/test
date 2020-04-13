@@ -1,0 +1,24 @@
+签名相关文档：https://blog.csdn.net/zwjemperor/article/details/80877203
+索引相关：https://www.cnblogs.com/aspwebchh/p/6652855.html   
+微服务：https://blog.csdn.net/fly_zhyu/article/details/76408158  
+正向代理与反向代理的区别：https://www.cnblogs.com/Anker/p/6056540.html1
+数据库事务：https://www.cnblogs.com/takumicx/p/9998844.html
+快照：https://www.cnblogs.com/qcloud1001/p/9322321.html
+灰度发布：https://blog.csdn.net/justdo2008/article/details/80551247
+jmeter压力测试：https://blog.csdn.net/a656678879/article/details/80053645?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1
+路由器：https://blog.csdn.net/hhthwx/article/details/78617877
+网关：https://blog.csdn.net/qiuzhongweiwei/article/details/80172529
+网段：https://blog.csdn.net/weixin_44248438/article/details/86480003
+数据库：https://blog.csdn.net/xin_ge_cheng_xu/article/details/79663549
+Redis：https://blog.csdn.net/qq_41846563/article/details/81203773
+git操作：https://blog.csdn.net/YJG7D314/article/details/104551896
+分库分表：https://www.cnblogs.com/butterfly100/p/9034281.html
+数据库replace into：https://www.cnblogs.com/c-961900940/p/6197878.html
+postman环境变量：https://blog.csdn.net/qq_36350532/article/details/80193049
+一些抓包软件的问题：https://cloud.tencent.com/developer/article/1490033
+Vue路由问题；MongoDB；Redis
+功能测试的技能要求：http://qa.tedu.cn/workplace/332168.html
+软件测试bug定位：https://blog.csdn.net/huyanyan08/article/details/79649985
+软件测试报告：https://www.zhihu.com/question/31338636
+PDF压缩：https://smallpdf.com/cn
+语雀：https://www.yuque.com/yuque
